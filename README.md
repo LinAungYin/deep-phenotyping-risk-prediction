@@ -11,7 +11,7 @@ Project Goal
 
 The core objective is to simulate the use of high-dimensional, derived patient features (Deep Phenotypes) to calculate the probability of a binary clinical event (e.g., High Risk of Readmission, Low Risk of Stroke).
 
-1. The Deep Phenotyping Process
+# **1. The Deep Phenotyping Process**
 
 In clinical research, Deep Phenotyping refers to the comprehensive and precise analysis of a patient's observable traits by integrating complex data (like lab results, time-series data, and clinical notes) into structured, meaningful features.
 
@@ -25,11 +25,11 @@ The DeepPhenotypingEngine class simulates this data preparation, generating synt
 
 - Systolic BP (Cardiovascular health indicator)
 
-2. Model Mechanism: Logistic Regression from Scratch
+# **2. Model Mechanism: Logistic Regression from Scratch**
 
 The core computational work is done in the LogisticRegressionModel class, which implements the classification algorithm without relying on any external machine learning libraries.
 
-A. Prediction Function
+## A. Prediction Function
 
 The model works like an advanced, weighted checklist:
 
@@ -42,7 +42,7 @@ This Raw Score is then passed through the Sigmoid Function (a smooth S-shaped cu
 
  This function converts the raw numerical score (which can range from negative infinity to positive infinity) into a clear Probability value between 0 and 1. This probability is the final clinical risk prediction.
 
-B. Learning with Gradient Descent
+## B. Learning with Gradient Descent
 
 The model finds the optimal weights by minimizing its error using Batch Gradient Descent.
 
@@ -52,7 +52,7 @@ Mechanism: Imagine the error as a hilly landscape. The model iteratively takes s
 
 The Java code iterates 10,000 times, adjusting the weights slightly in the right direction in each step, guaranteeing that the model continually improves its predictive power.
 
-How to Run the Code
+# How to Run the Code
 
 This project requires a standard Java Development Kit (JDK) installed.
 
@@ -60,12 +60,12 @@ Save the file: Save the content of ClinicalRiskPredictionApp.java.
 
 Compile:
 
-javac ClinicalRiskPredictionApp.java
+<u><b>javac ClinicalRiskPredictionApp.java</b></u>
 
 
 Run:
 
-java ClinicalRiskPredictionApp
+<u><b>java ClinicalRiskPredictionApp</b></u>
 
 
 The output will show the iterative cost reduction during training and the final risk prediction for a simulated new patient.
