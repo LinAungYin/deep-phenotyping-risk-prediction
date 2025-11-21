@@ -7,7 +7,7 @@ This repository contains a self-contained Java implementation of a Logistic Regr
 
 This project was developed as a technical showcase for the PhD application to the NUS Yong Loo Lin School of Medicine.
 
-Project Goal
+**Project Goal**
 
 The core objective is to simulate the use of high-dimensional, derived patient features (Deep Phenotypes) to calculate the probability of a binary clinical event (e.g., High Risk of Readmission, Low Risk of Stroke).
 
