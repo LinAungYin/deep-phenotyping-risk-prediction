@@ -17,13 +17,13 @@ In clinical research, Deep Phenotyping refers to the comprehensive and precise a
 
 The DeepPhenotypingEngine class simulates this data preparation, generating synthetic patient records based on four key features, which serve as proxies for complex clinical health profiles:
 
-Age
+- Age
 
-Glucose Level (Metabolic health indicator)
+- Glucose Level (Metabolic health indicator)
 
-Comorbidity Score (A derived metric of overall disease burden)
+- Comorbidity Score (A derived metric of overall disease burden)
 
-Systolic BP (Cardiovascular health indicator)
+- Systolic BP (Cardiovascular health indicator)
 
 2. Model Mechanism: Logistic Regression from Scratch
 
